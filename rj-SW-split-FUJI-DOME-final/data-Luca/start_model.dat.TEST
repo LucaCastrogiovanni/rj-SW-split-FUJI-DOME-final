@@ -1,0 +1,7 @@
+# TEST MODEL FOR the inversion of S-WAVE splitting parameters
+#
+#PARAM
+1                         # N. of Voronoi nuclei
+-300000  5    0.005
+#HPARAM 
+0.0                   # Scaling factor for uncertainties on CO2

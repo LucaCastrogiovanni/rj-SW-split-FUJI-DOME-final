@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --nodes=1                   # 1 node
+#SBATCH --ntasks-per-node=1          # 36 tasks per node
+#SBATCH --time=4:00:00            # time limits: 4 hours
+#SBATCH --error=error.err             # standard error file
+#SBATCH --output=output.out            # standard output file
+#SBATCH -A mBI23_AmbCo 
+#SBATCH --partition=bdw_all_serial
+
+
+
+../bin/rj_split_04
+ 
+
